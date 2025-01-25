@@ -1,0 +1,42 @@
+"use client";
+
+import self from "@/assets/images/temp-self.jpg"
+import Image from "next/image";
+import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import Link from "next/link";
+
+export const HeroSection = () => {
+  return (
+    <motion.div 
+      initial={{ opacity: 0, y: -50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+      className="wrapper"
+    >
+      <div className="flex flex-col justify-center items-start">
+        <h1 className="text-7xl font-bold text-text"> 
+          Hey! I'm 
+        </h1>
+        <h1 className="text-5xl font-bold text-heading mt-3"> 
+          Harshadeep Kambhampati
+        </h1>
+        <p className="text-xl text-gray-400 mt-6">
+          I'm a student at The University of Texas at Austin studying computer science and mathematics.
+        </p>
+        <p className="flex gap-4 mt-2">
+          <Link href="https://www.linkedin.com/in/hkambham/">
+            <FaLinkedin size={40}></FaLinkedin>
+          </Link>
+          <Link href="https://github.com/harshadeepk02">
+            <FaGithub size={40}></FaGithub>
+          </Link>
+        </p>
+      </div>
+      <div className="ml-5 mt-5 border-4 border-gray-500 rounded-[4rem] overflow-hidden h-[30rem] w-[30rem] float-left">
+        <Image src={self} className="h-[30rem] w-[30rem] object-cover" alt="self"/>
+      </div>
+    </motion.div>
+  );
+};
