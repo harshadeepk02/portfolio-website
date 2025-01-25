@@ -17,13 +17,13 @@ export const HeroSection = () => {
     >
       <div className="flex flex-col justify-center items-start">
         <h1 className="text-7xl font-bold text-text"> 
-          Hey! I'm 
+          Hey! I&apos;m 
         </h1>
         <h1 className="text-5xl font-bold text-heading mt-3"> 
           Harshadeep Kambhampati
         </h1>
         <p className="text-xl text-gray-400 mt-6">
-          I'm a student at The University of Texas at Austin studying computer science and mathematics.
+          I&apos;m a student at The University of Texas at Austin studying computer science and mathematics.
         </p>
         <p className="flex gap-4 mt-2">
           <Link href="https://www.linkedin.com/in/hkambham/">

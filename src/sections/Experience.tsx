@@ -48,7 +48,7 @@ export const ExperienceSection = () => {
             Created a product designed to provide research labs at UT Austin with
             an AI-powered query engine that only sources academic references and
             reduces hallucination. Utilized the Tavily API to source academic references
-            and GPT-4 to generate responses. Broke down LlamaIndex's RAG-pipeline to 
+            and GPT-4 to generate responses. Broke down LlamaIndex&apos;s RAG-pipeline to 
             provide referenced sources to users.
           </p>
           <div className="flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
@@ -75,7 +75,7 @@ export const ExperienceSection = () => {
             Created a product designed to provide research labs at UT Austin with
             an AI-powered query engine that only sources academic references and
             reduces hallucination. Utilized the Tavily API to source academic references
-            and GPT-4 to generate responses. Broke down LlamaIndex's RAG-pipeline to 
+            and GPT-4 to generate responses. Broke down LlamaIndex&apos;s RAG-pipeline to 
             provide referenced sources to users.
           </p>
           <div className="flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
