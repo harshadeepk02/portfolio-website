@@ -6,7 +6,7 @@ export const AboutSection = () => {
           About Me
         </h1>
         <p className="text-gray-400 mt-1">
-          I'm a CS and Math double major at UT Austin interested in cybersecurity, artificial intelligence, 
+          I&apos;m a CS and Math double major at UT Austin interested in cybersecurity, artificial intelligence, 
           and systems programming. Motivated by a strong sense of curiosity and excitement for exploring new
           unknowns, I&apos;m always looking for opportunities to challenge myself and learn.
         </p>
