@@ -2,7 +2,7 @@ import React from "react";
 
 export const ContactSection = () => {
   return(
-    <div id="contact" className="spacing items-center md:gap-20">
+    <div id="contact" className="spacing items-center md:gap-20 mb-5">
       <div className="flex flex-col justify-start gap-3">
         <h1 className="text-4xl font-semibold text-text">
           Contact Me

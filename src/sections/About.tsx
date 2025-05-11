@@ -19,7 +19,7 @@ export const AboutSection = () => {
         className="sm:order-2 md:order-1 flex flex-col items-center justify-center gap-4"
       >
         <div className="flex flex-row gap-4 items-center">
-          <Image src={utlogo2} alt="utlogo2" className="w-full h-full" />
+          <Image src={utlogo2} alt="utlogo2" className="w-full h-full sm:w-1/2" />
           <Image src={dandb} alt="dandb" className="w-1/2 h-full px-3 sm:hidden md:flex" />
         </div>
         <div className="sm:hidden md:flex flex-row gap-4 items-center">
