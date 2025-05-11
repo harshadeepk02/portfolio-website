@@ -16,9 +16,9 @@ export const AboutSection = () => {
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5 }}
-        className="sm:order-2 md:order-1 flex flex-col items-center justify-center gap-4"
+        className="sm:order-2 md:order-1 flex flex-col justify-center items-center gap-4"
       >
-        <div className="flex flex-row gap-4 items-center">
+        <div className="flex flex-row gap-4 justify-center items-center">
           <Image src={utlogo2} alt="utlogo2" className="w-full h-full sm:w-1/2" />
           <Image src={dandb} alt="dandb" className="w-1/2 sm:w-1/3 h-full px-3" />
         </div>
