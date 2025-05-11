@@ -16,7 +16,7 @@
 
 @layer components {
     .spacing {
-        @apply flex flex-col md:flex-row justify-center my-16 md:my-28 mx-10 md:mx-40 max-w-[1200px];
+        @apply flex flex-col md:flex-row justify-center pt-16 md:pt-28 mx-10 md:mx-40 max-w-[1200px];
     }
 }
 

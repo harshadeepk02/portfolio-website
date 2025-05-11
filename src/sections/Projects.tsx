@@ -228,7 +228,7 @@ export const ProjectsSection = () => {
       </motion.div>
 
       <div className="flex flex-col items-center">
-        <p className="text-xl text-text">
+        <p className="text-xl text-text text-center">
           For a complete list of my other projects/works, check out:
         </p>
         <div className="flex gap-4 mt-2">

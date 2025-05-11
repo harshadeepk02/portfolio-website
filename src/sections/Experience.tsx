@@ -7,7 +7,7 @@ import { useInView } from "motion/react"
 
 export const ExperienceSection = () => {
   return (
-    <div id="experience" className="spacing flex flex-col justify-center items-center">
+    <div id="experience" className="spacing  flex flex-col justify-center items-center">
       <h1 className="text-4xl font-semibold text-text mb-5">
         Experience
       </h1>
