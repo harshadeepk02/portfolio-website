@@ -78,7 +78,7 @@ export const ProjectsSection = () => {
               CUDA Programming
           </h2>
           <p className="text-md mt-5"> 
-            Implementing different <span className="text-heading">parallelizable algorithms</span> on the CPU and GPU using NVIDIA's C++ CUDA Toolkit. 
+            Implementing different <span className="text-heading">parallelizable algorithms</span> on the CPU and GPU using NVIDIA&apos;s C++ CUDA Toolkit. 
             Gaining practice with <span className="text-heading">CUDA programming</span> techniques and observing CPU/GPU performance differences. 
             Algorithms include convolution, n-body simulation (shown here), prefix sum, etc.
           </p>
