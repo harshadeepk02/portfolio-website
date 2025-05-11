@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 
 export const AboutSection = () => {
   return(
-    <div id="about" className="spacing gap-4 sm:gap-8 pt-12 items-center">
+    <div id="about" className="spacing gap-4 sm:gap-8 md:pt-12 items-center">
       <motion.div 
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -20,9 +20,9 @@ export const AboutSection = () => {
       >
         <div className="flex flex-row gap-4 items-center">
           <Image src={utlogo2} alt="utlogo2" className="w-full h-full" />
-          <Image src={dandb} alt="dandb" className="w-1/2 h-full px-3 sm:hidden" />
+          <Image src={dandb} alt="dandb" className="w-1/2 h-full px-3 sm:hidden md:block" />
         </div>
-        <div className="flex flex-row gap-4 items-center sm:hidden">
+        <div className="flex flex-row gap-4 items-center sm:hidden md:block">
           <Image src={freetailbat} alt="freetailbat" className="w-full h-full" />
           <Image src={isss} alt="isss" className="w-3/5 h-full" />
           <Image src={convergent} alt="convergent" className="w-full h-full" />
