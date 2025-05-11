@@ -4,12 +4,12 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <div className="fixed w-full top-0 left-0 flex justify-between items-center px-10 pt-5 z-50">
+    <div className="fixed w-full top-0 left-0 flex justify-between items-center px-4 md:px-10 pt-5 z-50">
         <Link href={'#'}>
-          <Image src={logo} className="size-[30px] w-auto" alt="logo"/>
+          <Image src={logo} className="hidden md:flex size-[30px] w-auto" alt="logo"/>
         </Link>
         <div className="absolute left-1/2 -translate-x-1/2">
-          <nav className="flex gap-1 p-0.5 border border-heading/15 rounded-full bg-text/10 backdrop-blur">
+          <nav className="hidden md:flex gap-1 p-0.5 border border-heading/15 rounded-full bg-text/10 backdrop-blur">
             <a href="#about" className="navbar">About</a>
             <a href="#experience" className="navbar">Experience</a>
             <a href="#projects" className="navbar">Projects</a>
