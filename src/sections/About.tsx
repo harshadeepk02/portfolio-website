@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 
 export const AboutSection = () => {
   return(
-    <div id="about" className="spacing gap-4 sm:gap-8 md:pt-12 items-center">
+    <div id="about" className="spacing gap-4 sm:gap-8 md:pt-12 justify-center items-center">
       <motion.div 
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
