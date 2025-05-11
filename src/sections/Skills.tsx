@@ -78,7 +78,7 @@ export const SkillsSection = () => {
   const [hoveredSkill, setHoveredSkill] = useState(skills[0].name);
 
   return(
-    <div className="spacing sm:pt-8 grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-5 md:gap-0">
+    <div className="spacing grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-5 md:gap-0">
 
       {/* For each skill, display its icon and update it to be the hovered skill when hovered */}
       <motion.div 
