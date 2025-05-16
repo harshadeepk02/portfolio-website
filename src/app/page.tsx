@@ -7,6 +7,7 @@ import { ProjectsSection } from "@/sections/Projects";
 import { InvolvementsSection } from "@/sections/Involvements";
 import { ContactSection } from "@/sections/Contact";
 import { Footer } from "@/sections/Footer";
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
