@@ -17,7 +17,7 @@ export const Header = () => {
           </nav>
         </div>
         <div className="flex p-0.5 border border-heading/15 rounded-full bg-text/10 backdrop-blur">
-          <a href="https://docs.google.com/document/d/1JHpAYhRtLR8vZ-7ORx1Hcnx7tHvNUGVV/export?format=pdf" className="navbar">Resume</a>
+          <a href="https://drive.google.com/file/d/1Qj6kG3nIwTKohDwwK3vAKw26rIFsxtzp/view" className="navbar">Resume</a>
         </div>
     </div>
   );
