@@ -22,7 +22,7 @@ export const AboutSection = () => {
           <Image src={utlogo2} alt="utlogo2" className="w-full h-full sm:w-1/2" />
           <Image src={dandb} alt="dandb" className="w-1/2 sm:w-1/3 h-full px-3" />
         </div>
-        <div className="sm:hidden lg:flex flex-row gap-4 items-center">
+        <div className="sm:hidden md:flex flex-row gap-4 items-center">
           <Image src={freetailbat} alt="freetailbat" className="w-full h-full" />
           <Image src={isss} alt="isss" className="w-3/5 h-full" />
           <Image src={convergent} alt="convergent" className="w-full h-full" />
