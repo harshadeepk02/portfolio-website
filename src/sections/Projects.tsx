@@ -39,7 +39,7 @@ export const ProjectsSection = () => {
             cache system (MICRO 21). We optimized the secure cache design and improved how they interface 
             with microarchitectural prefetchers and replacement policies.
           </p>
-          <div className="hidden md:flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
+          <div className="hidden lg:flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
             <p className="py-1 px-2 border rounded-full"> C++ </p>
             <p className="py-1 px-2 border rounded-full"> Python </p>
             <p className="py-1 px-2 border rounded-full"> gem5 </p>
@@ -82,7 +82,7 @@ export const ProjectsSection = () => {
             Gaining practice with <span className="text-heading">CUDA programming</span> techniques and observing CPU/GPU performance differences. 
             Algorithms include convolution, n-body simulation (shown here), prefix sum, etc.
           </p>
-          <div className="hidden md:flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
+          <div className="hidden lg:flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
             <p className="py-1 px-2 border rounded-full"> C++ </p>
             <p className="py-1 px-2 border rounded-full"> CUDA </p>
             <p className="py-1 px-2 border rounded-full"> WebGL </p>
@@ -114,7 +114,7 @@ export const ProjectsSection = () => {
             Users can <span className="text-heading">manipulate any 3D COLLADA model interactively</span> and create animations interpolating across 
             keyframes.
           </p>
-          <div className="hidden md:flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
+          <div className="hidden lg:flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
             <p className="py-1 px-2 border rounded-full"> TypeScript </p>
             <p className="py-1 px-2 border rounded-full"> WebGL </p>
           </div>
@@ -149,7 +149,7 @@ export const ProjectsSection = () => {
             color-sensing, line-following, and obstacle-avoidance routines</span> in C++. Breadboarded all electronics designed 
             model using SolidWorks.
           </p>
-          <div className="hidden md:flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
+          <div className="hidden lg:flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
             <p className="py-1 px-2 border rounded-full"> C++ </p>
             <p className="py-1 px-2 border rounded-full"> SolidWorks </p>
             <p className="py-1 px-2 border rounded-full"> Bambu Studio </p>
@@ -181,7 +181,7 @@ export const ProjectsSection = () => {
             from a simplified ARM ISA. Performs static branch prediction alongside instruction forwarding
             and hazard control.
           </p>
-          <div className="hidden md:flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
+          <div className="hidden lg:flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
             <p className="py-1 px-2 border rounded-full"> C </p>
             <p className="py-1 px-2 border rounded-full"> ARM Assembly </p>
             <p className="py-1 px-2 border rounded-full"> BASH </p>
@@ -210,7 +210,7 @@ export const ProjectsSection = () => {
             Simulated attacks using the Medusa CLI. Observed a 25% increase in idle energy wastage and a 66% increase
             in CPU clock speed overhead. Working to publish.
           </p>
-          <div className="hidden md:flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
+          <div className="hidden lg:flex gap-3 pt-7 text-xs justify-center text-text/70 font-bold">
             <p className="py-1 px-2 border rounded-full"> Matplotlib </p>
             <p className="py-1 px-2 border rounded-full"> Pandas </p>
             <p className="py-1 px-2 border rounded-full"> Linux </p>

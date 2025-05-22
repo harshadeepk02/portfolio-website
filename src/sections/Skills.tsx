@@ -87,7 +87,7 @@ export const SkillsSection = () => {
         transition={{ duration: 1.5 }}
         className="flex justify-center order-2 md:order-1"
       >
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 p-7 gap-12 border border-heading rounded-3xl bg-text/10 backdrop-blur">
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 p-7 gap-12 border border-heading rounded-3xl bg-text/10 backdrop-blur">
           {skills.map((skill, index) => (
             <div key={index} onMouseEnter={() => setHoveredSkill(skill.name)}>
                 <motion.div

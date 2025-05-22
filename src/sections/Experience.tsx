@@ -79,7 +79,7 @@ export const ExperienceSection = () => {
             an AI-powered query engine protected against LLM hallucination.
             Built by equipping GPT4 with a modified LlamaIndex RAG pipeline.
           </p>
-          <div className="flex gap-2 pt-7 text-xs justify-center text-text/70 font-bold">
+          <div className="hidden lg:flex gap-2 pt-7 text-xs justify-center text-text/70 font-bold">
             <p className="py-1 px-2 border rounded-full"> Python </p>
             <p className="py-1 px-2 border rounded-full"> Flask </p>
             <p className="py-1 px-2 border rounded-full"> React </p>
@@ -106,7 +106,7 @@ export const ExperienceSection = () => {
             Responsible for searching all UT-subdomains for any web vulnerabilities. 
             Identified and documented reports for XSS and SQL-injection issues, earning bounty payments.
           </p>
-          <div className="flex gap-2 pt-7 text-xs justify-center text-text/70 font-bold">
+          <div className="hidden lg:flex gap-2 pt-7 text-xs justify-center text-text/70 font-bold">
             <p className="py-1 px-2 border rounded-full"> JavaScript </p>
             <p className="py-1 px-2 border rounded-full"> HTML/CSS </p>
           </div>
