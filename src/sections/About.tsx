@@ -24,9 +24,9 @@ export const AboutSection = () => {
           <Image src={dandb} alt="dandb" className="w-1/2 max-w-full sm:w-1/3 h-auto px-3 object-contain" />
         </div>
         <div className="sm:hidden md:flex flex-row gap-4 items-center">
-          <Image src={freetailbat} alt="freetailbat" className="w-full max-w-full h-auto object-contain" />
-          <Image src={isss} alt="isss" className="w-3/5 max-w-full h-auto object-contain" />
-          <Image src={convergent} alt="convergent" className="w-full max-w-full h-auto object-contain" />
+          <Image src={freetailbat} alt="freetailbat" className="w-full max-w-full shrink h-auto object-contain" />
+          <Image src={isss} alt="isss" className="w-3/5 max-w-full shrink h-auto object-contain" />
+          <Image src={convergent} alt="convergent" className="w-full max-w-full shrink h-auto object-contain" />
         </div>
       </motion.div>
 
