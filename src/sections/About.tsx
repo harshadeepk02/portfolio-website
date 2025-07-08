@@ -17,7 +17,7 @@ export const AboutSection = () => {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5 }}
         viewport={{ once: true }}
-        className="sm:order-2 md:order-1 flex flex-col justify-center items-center gap-4"
+        className="sm:order-2 md:order-1 flex flex-col justify-center items-center gap-4 max-w-[35%]"
       >
         <div className="flex flex-row gap-4 justify-center items-center">
           <Image src={utlogo2} alt="utlogo2" className="w-full sm:w-1/2 h-auto object-contain" />
