@@ -40,6 +40,10 @@ import {
   SiJira,
   SiOpengl,
   SiGnubash,
+  SiNvidia,
+  SiLlvm,
+  SiGooglecloud,
+  SiExpress,
 } from "react-icons/si";
 
 
@@ -64,7 +68,7 @@ export const SkillsSection = () => {
     { name: 'Microcontrollers', icon: <FaMicrochip size={35}/>, description: 'I have worked with various microcontrollers for embedded projects. When designing an autonomous navigation robot that relied on several different sensors, I used an ESP-32 to program the robot and interface with the sensors. I also used a Raspberry Pi 3B+ as a victim SSH server when conducting research into the costs of SSH brute force attacks.' },
     { name: 'Framer Motion', icon: <TbBrandFramerMotion size={35}/>, description: 'I have used Framer Motion as a useful animation library to make more interactive and engaging frontend experiences for my web dev projects, including this very personal website.' },
     { name: 'Linux', icon: <FaLinux size={35}/>, description: 'I have utilized Ubuntu, a Linux distribution, as the environment for developing microarchitectural predictors and running benchmark scripts in the gem5 simulator. Additionally, when researching SSH brute force attacks, I set up various SSH servers on Raspberry Pi OS, a Debian Linux distro, to serve as a victim SSH server.' },
-    { name: 'Jira', icon: <SiJira size={35}/>, description: 'During my time at Code2College, I utilized Jira as an agile project management and sprint-based development platform to coordinate with other teams on larger projects' },
+    { name: 'Jira', icon: <SiJira size={35}/>, description: 'During my time interning at Dun & Bradstreet and Code2College, I utilized Jira as an agile project management and sprint-based development platform to coordinate with other teams on larger projects and keep my team updated on my current workflows.' },
     { name: 'OpenGL', icon: <SiOpengl size={35}/>, description: 'Across various graphics projects that require more powerful rendering pipelines, like my accelerated ray tracer or skinning and animation rig, I have used OpenGL (or WebGL) to process and render data using the GPU, or simply leverage compute shaders for faster computations. I have also used the OpenGL GLM mathematics library to easily perform any linear algebra operations needed for my projects.' },
     { name: 'Bash', icon: <SiGnubash size={35}/>, description: 'When developing Charon, a secure cache system designed using the gem5 computer architecture simulator, I wrote BASH scripts to run different test benchmarks, parallellize workloads, parse and pass in parameters appropriately, manage piping test results into output files, and parse output stat dumps easily for key data.' },
     { name: 'Python', icon: <FaPython size={35}/>, description: 'I have used Python in most machine learning projects I have worked on, including FactFlow, an AI-powered query engine built using Python + Flask API for the backend.' },
@@ -72,6 +76,10 @@ export const SkillsSection = () => {
     { name: 'Tailwind CSS', icon: <RiTailwindCssFill size={35}/>, description: 'Across several different projects, including this very personal website, I have used Tailwind as a very quick and easy-to-prototype with CSS framework to design engaging UI experiences.' },
     { name: 'HTML', icon: <FaHtml5 size={35}/>, description: 'Across all of my web dev projects, I have used HTML to create interactive front-end experiences (including this very website).' },
     { name: 'CSS', icon: <FaCss3Alt size={35}/>, description: 'I have used vanilla CSS along with different CSS frameworks (Tailwind, Bootstrap) in designing and styling interactive front-end experiences.' },
+    { name: 'Google Cloud', icon: <SiGooglecloud size={35}/>, description: 'At my time at Dun & Bradstreet, I utilized their Google Cloud platform to deploy an external-facing document scanner tool that relied on GCP storage buckets for document upload along with the VertexAI/DocumentAI platforms on GCP to perform document analysis.' },
+    { name: 'NVIDIA CUDA', icon: <SiNvidia size={35}/>, description: 'For my final project for my Computer Graphics course, I explored the usage and optimization techniques of the CUDA toolkit, implementing several parallelizable algorithms on the CPU and CUDA-optimized on the GPU to benchmark performance differences. This encompassed techiques like memory management and the algorithms included n-body simulation, prefix sum, etc.' },
+    { name: 'LLVM', icon: <SiLlvm size={35}/>, description: 'Following along with the official LLVM tutorials and other online resources, I have gained some hands-on experience using LLVM to implement my own basic compiler for the simplified Kaliedoscope language.' },
+    { name: 'Express', icon: <SiExpress size={35}/>, description: 'During my time at Dun & Bradstreet, I created an external-facing ML document scanner tool. Bringing it to production required creating a route and API endpoint/handler for this tool to be queried from their dashboard, which was done through Express.' },
 
 
   ];
