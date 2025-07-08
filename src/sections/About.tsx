@@ -17,16 +17,16 @@ export const AboutSection = () => {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5 }}
         viewport={{ once: true }}
-        className="sm:order-2 md:order-1 flex flex-col justify-center items-center gap-4 max-w-[35%] overflow-hidden"
+        className="sm:order-2 md:order-1 flex flex-col justify-center items-center gap-4 md:max-w-[35%] overflow-hidden"
       >
         <div className="flex flex-row gap-4 justify-center items-center">
           <Image src={utlogo2} alt="utlogo2" className="w-full max-w-full sm:w-1/2 h-auto object-contain" />
           <Image src={dandb} alt="dandb" className="w-1/2 max-w-full sm:w-1/3 h-auto px-3 object-contain" />
         </div>
         <div className="sm:hidden md:flex flex-row gap-4 items-center">
-          <Image src={freetailbat} alt="freetailbat" className="w-full max-w-full shrink h-auto object-contain" />
-          <Image src={isss} alt="isss" className="w-3/5 max-w-full shrink h-auto object-contain" />
-          <Image src={convergent} alt="convergent" className="w-full max-w-full shrink h-auto object-contain" />
+          <Image src={freetailbat} alt="freetailbat" className="w-full max-w-full h-auto object-contain" />
+          <Image src={isss} alt="isss" className="w-3/5 max-w-full h-auto object-contain" />
+          <Image src={convergent} alt="convergent" className="w-full max-w-full h-auto object-contain" />
         </div>
       </motion.div>
 
