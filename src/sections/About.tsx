@@ -20,13 +20,13 @@ export const AboutSection = () => {
         className="sm:order-2 md:order-1 flex flex-col justify-center items-center gap-4"
       >
         <div className="flex flex-row gap-4 justify-center items-center">
-          <Image src={utlogo2} alt="utlogo2" className="w-full h-full sm:w-1/2" />
-          <Image src={dandb} alt="dandb" className="w-1/2 sm:w-1/3 h-full px-3" />
+          <Image src={utlogo2} alt="utlogo2" className="w-full sm:w-1/2 h-auto object-contain" />
+          <Image src={dandb} alt="dandb" className="w-1/2 sm:w-1/3 h-auto px-3 object-contain" />
         </div>
         <div className="sm:hidden md:flex flex-row gap-4 items-center">
-          <Image src={freetailbat} alt="freetailbat" className="w-full h-full" />
-          <Image src={isss} alt="isss" className="w-3/5 h-full" />
-          <Image src={convergent} alt="convergent" className="w-full h-full" />
+          <Image src={freetailbat} alt="freetailbat" className="w-full h-auto object-contain" />
+          <Image src={isss} alt="isss" className="w-3/5 h-auto object-contain" />
+          <Image src={convergent} alt="convergent" className="w-full h-auto object-contain" />
         </div>
       </motion.div>
 
