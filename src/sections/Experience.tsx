@@ -18,6 +18,7 @@ export const ExperienceSection = () => {
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.5 }}
+          viewport={{ once: true }}
           className="flex flex-col w-full justify-start border border-gray-500 rounded-3xl bg-text/10 backdrop-blur p-5"
         >
           <h2 className="text-2xl font-bold text-heading">
@@ -38,6 +39,7 @@ export const ExperienceSection = () => {
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.5 }}
+          viewport={{ once: true }}
           className="flex flex-col w-full justify-start border border-gray-500 rounded-3xl bg-text/10 backdrop-blur p-5"
         >
           <h2 className="text-2xl font-bold text-heading">
@@ -63,6 +65,7 @@ export const ExperienceSection = () => {
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.5 }}
+          viewport={{ once: true }}
           className="flex flex-col w-full justify-start border border-gray-500 rounded-3xl bg-text/10 backdrop-blur p-5"
         >
           <h2 className="text-2xl font-bold text-heading">
@@ -91,6 +94,7 @@ export const ExperienceSection = () => {
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.5 }}
+          viewport={{ once: true }}
           className="flex flex-col w-full justify-start border border-gray-500 rounded-3xl bg-text/10 backdrop-blur p-5"
         >
           <h2 className="text-2xl font-bold text-heading">

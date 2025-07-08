@@ -85,6 +85,7 @@ export const SkillsSection = () => {
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
         className="flex justify-center order-2 md:order-1"
       >
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 p-7 gap-12 border border-heading rounded-3xl bg-text/10 backdrop-blur">
@@ -107,6 +108,7 @@ export const SkillsSection = () => {
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
         className="flex flex-col justify-center items-center order-1 md:order-2"
       >
         <h1 className="flex text-4xl font-bold text-text"> Skills </h1>

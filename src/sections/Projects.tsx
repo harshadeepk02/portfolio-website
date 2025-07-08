@@ -27,6 +27,7 @@ export const ProjectsSection = () => {
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
         className="sm:flex sm:flex-col md:grid md:grid-cols-2 items-center gap-3 border border-gray-500 rounded-3xl bg-text/10 backdrop-blur p-5 my-5"
       >
         
@@ -68,6 +69,7 @@ export const ProjectsSection = () => {
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
         className="sm:flex sm:flex-col md:grid md:grid-cols-2 items-center gap-3 border border-gray-500 rounded-3xl bg-text/10 backdrop-blur p-5 my-5"
       >
 
@@ -102,6 +104,7 @@ export const ProjectsSection = () => {
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
         className="sm:flex sm:flex-col md:grid md:grid-cols-2 items-center gap-3 border border-gray-500 rounded-3xl bg-text/10 backdrop-blur p-5 my-5"
       >
         
@@ -135,6 +138,7 @@ export const ProjectsSection = () => {
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
         className="sm:flex sm:flex-col md:grid md:grid-cols-2 items-center gap-3 border border-gray-500 rounded-3xl bg-text/10 backdrop-blur p-5 my-5"
       >
 
@@ -169,6 +173,7 @@ export const ProjectsSection = () => {
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
         className="sm:flex sm:flex-col md:grid md:grid-cols-2 items-center gap-3 border border-gray-500 rounded-3xl bg-text/10 backdrop-blur p-5 my-5"
       >
         
@@ -196,6 +201,7 @@ export const ProjectsSection = () => {
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
         className="sm:flex sm:flex-col md:grid md:grid-cols-2 items-center gap-3 border border-gray-500 rounded-3xl bg-text/10 backdrop-blur p-5 my-5"
       >
 

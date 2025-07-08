@@ -12,12 +12,14 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <HeroSection></HeroSection>
-      <AboutSection></AboutSection>
-      <SkillsSection></SkillsSection>
-      <ExperienceSection></ExperienceSection>
-      <ProjectsSection></ProjectsSection>
-      <ContactSection></ContactSection>
+      <div className="mx-10 lg:mx-40">
+        <HeroSection></HeroSection>
+        <AboutSection></AboutSection>
+        <SkillsSection></SkillsSection>
+        <ExperienceSection></ExperienceSection>
+        <ProjectsSection></ProjectsSection>
+        <ContactSection></ContactSection>
+      </div>
       <Footer></Footer>
     </div>
   );

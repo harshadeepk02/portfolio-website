@@ -13,6 +13,7 @@ export const HeroSection = () => {
       initial={{ opacity: 0, y: -50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.5 }}
+      viewport={{ once: true }}
       className="wrapper md:pb-10"
     >
       <div className="flex flex-col justify-center items-start">

@@ -16,6 +16,7 @@ export const AboutSection = () => {
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
         className="sm:order-2 md:order-1 flex flex-col justify-center items-center gap-4"
       >
         <div className="flex flex-row gap-4 justify-center items-center">
@@ -33,6 +34,7 @@ export const AboutSection = () => {
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
         className="flex flex-col items-center sm:order-1 md:order-2"
       >
         <h1 className="text-4xl font-semibold text-text mb-2">
